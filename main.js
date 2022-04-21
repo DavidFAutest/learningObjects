@@ -49,28 +49,51 @@
 
 // Restaurant to visit
 
-let restaurants = [
-{   name: 'Miguel',
-    city: 'San Diego',
-    alreadyVisited: true
-},
-{   name: 'Dave',
-    city: 'Escondido',
-    alreadyVisited: false
-},
-{   name: 'Food land',
-    city: 'Sun Deego',
-    alreadyVisited: false
-}
-];
+// let restaurants = [
+// {   name: 'Miguel',
+//     city: 'San Diego',
+//     alreadyVisited: true
+// },
+// {   name: 'Dave',
+//     city: 'Escondido',
+//     alreadyVisited: false
+// },
+// {   name: 'Food land',
+//     city: 'Sun Deego',
+//     alreadyVisited: false
+// }
+// ];
 
-for (let i = 0; i < restaurants.length; i++) {
-    let restaurant = restaurants[i];
-    let restaurantInfo = restaurant.name + ' in ' + restaurant.city;
-    console.log(restaurantInfo);
-    if (restaurant.alreadyVisited) {
-        console.log(' You have already visited ' + restaurantInfo)
-    } else {
-        console.log(' You have not visited ' + restaurantInfo + ' yet');
-    }
-}
+// for (let i = 0; i < restaurants.length; i++) {
+//     let restaurant = restaurants[i];
+//     let restaurantInfo = restaurant.name + ' in ' + restaurant.city;
+//     console.log(restaurantInfo);
+//     if (restaurant.alreadyVisited) {
+//         console.log(' You have already visited ' + restaurantInfo)
+//     } else {
+//         console.log(' You have not visited ' + restaurantInfo + ' yet');
+//     }
+// }
+//------------------------------------------------------------------------------
+
+// More on Objects - Second Lesson - https://github.com/cccareers/TA200-Intermediate-Test-Automation/blob/main/13-more-on-objects.md
+// 1.
+
+// function add(x, y) {
+//     if (x + y == 1000 || x == 1000 || y == 1000) {
+//         return true
+//     }    
+// }
+// console.log(add(500, 500))
+// console.log(add(500, 400))
+// console.log(add(1000, 400))
+
+//---------------------------------
+// 2.
+// Space for work
+//-------------------------------
+// 3.
+
+// function calFahrenheit() {
+    
+// }
