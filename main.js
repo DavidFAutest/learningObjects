@@ -49,8 +49,28 @@
 
 // Restaurant to visit
 
-let restaurants = {
-    'Miguels': 'San Diego',  
-};
+let restaurants = [
+{   name: 'Miguel',
+    city: 'San Diego',
+    alreadyVisited: true
+},
+{   name: 'Dave',
+    city: 'Escondido',
+    alreadyVisited: false
+},
+{   name: 'Food land',
+    city: 'Sun Deego',
+    alreadyVisited: false
+}
+];
 
-console.log(restaurants)
+for (let i = 0; i < restaurants.length; i++) {
+    let restaurant = restaurants[i];
+    let restaurantInfo = restaurant.name + ' in ' + restaurant.city;
+    console.log(restaurantInfo);
+    if (restaurant.alreadyVisited) {
+        console.log(' You have already visited ' + restaurantInfo)
+    } else {
+        console.log(' You have not visited ' + restaurantInfo + ' yet');
+    }
+}
