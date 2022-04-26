@@ -117,3 +117,32 @@
 // }
 
 //----------------------------------
+
+//New Lesson. Exercise 14 - Built in Objects
+//--
+//Examples - Math Object - W3Schools lookup
+// let num = 5.7;
+// console.log(Math.round(num));
+// let num2 = 5.2;
+// console.log(Math.round(num2));
+//---------------------------
+// Random Number Gen
+
+// function genRandom(start, end){
+//     return Math.floor(Math.random()*(end-start)) + start
+// }
+
+// console.log(genRandom(80, 90))
+// console.log(genRandom(1, 10))
+
+//-----------------------------
+//Area of a circle using Math object and PI  Area = PI x R squared
+
+// function areaOfACircle(Radius) {
+//     return Math.PI*Radius*Radius
+// }
+// console.log(areaOfACircle(10))
+// console.log(areaOfACircle(20))
+// console.log(areaOfACircle(30))
+
+//--------------------------------
