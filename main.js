@@ -89,11 +89,31 @@
 // console.log(add(1000, 400))
 
 //---------------------------------
-// 2.
-// Space for work
-//-------------------------------
-// 3.
+// 2.  (WIP)
+// function extensions() {
+//     let fileTypes = ['index.html', 'main.js', 'styles.css'];
 
-// function calFahrenheit() {
+// }
+
+// console.log(fileTypes)
+//-------------------------------
+// 3. Write a function to convert Celsius to Fahrenheit Function calFahrenheit() returns 
+// the converted Celsius value to Fahrenheit value based on the formula (Celsius × 9/5) + 32 = Fahrenheit
+
+// function calFahrenheit(Celsius) {
+//     return 9/5*Celsius+32 
+// }
+// console.log(calFahrenheit(19))
+//----------------------------------
+//4.
+
+//
+
+//---------------------------------
+//5. 
+
+// function calculateSupply(need, age) {
     
 // }
+
+//----------------------------------
