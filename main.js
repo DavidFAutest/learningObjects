@@ -146,3 +146,94 @@
 // console.log(areaOfACircle(30))
 
 //--------------------------------
+// Lesson 15 built-in-objects-continued.
+//--------
+// Example
+// function is_array(input) {
+//     if (toString.call(input) === "[object Array]")
+//         return true;
+//     return false;   
+//         };
+//         console.log(is_array([1, 2, 4, 0]));
+//------------------------------------
+// Array Exercises 2 - Write a simple JavaScript program to join all elements of the following array into a string. 
+// Sample array : myColor = ["Red", "Green", "White", "Black"];
+// Expected Output: "Red,Green,White,Black" "Red,Green,White,Black" "Red+Green+White+Black"
+
+// myColor = ["Red", "Green", "White", "Black"];
+// console.log(myColor.toString());
+// console.log(myColor.join());
+//-------------------------------------
+// Date Instance Methods
+// Examples
+// console.log(new Date()); // flat data in GMT
+// console.log(new Date().toString()); // more info in GMT
+//---------
+//1). Write a JavaScript function to check whether an 'input' is a date object or not.
+// -- Date sets ---
+// console.log(is_date("April 28, 2022 11:13:00"));
+// console.log(is_date(new Date(86400000)));
+// console.log(is_date(new Date(99,5,24,11,33,30,0)));
+// console.log(is_date([0, 1, 2, 4, 5]));
+//------
+
+// function is_date(input) {
+//     if(Object.prototype.toString.call(input) === "[object Date]")
+//     return true;
+//     return false;
+// }
+
+// console.log(is_date("April 28, 2022 11:13:00"));
+// console.log(is_date(new Date(86400000)));
+// console.log(is_date(new Date(99,5,24,11,33,30,0)));
+// console.log(is_date([0, 1, 2, 4, 5]));
+
+//------------------------------------------------
+// JS String Exercise
+//1). Write a JavaScript function to check whether a string is blank or not.
+// Test Data:
+//console.log(is_Blank(''));
+// should return true 
+//console.log(is_Blank('xyz'));
+// should return false
+//------
+
+// function is_Blank(input) {
+//     if (input.length === 0) {
+//         return true;}
+//         else {
+//         return false;
+//         }
+//     }
+//     console.log(is_Blank(''));
+//     console.log(is_Blank('xyz'));
+//-------------------------------------------------
+//2). Write a JavaScript function to check whether an 'input' is a string or not.
+// Test Data:
+//console.log(isInputAString('helloWorld'));
+// should return true
+//console.log(isInputAString([0, 1, 2, 4, 5]));
+// should return false
+//-------
+
+// function isInputAString(input) {
+//     if (Object.prototype.toString.call(input) === '[object String]') {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// console.log(isInputAString('helloWorld'));
+// console.log(isInputAString([0, 1, 2, 4, 5]));
+//console.log(Object.prototype.toString.call('HelloWorld'))
+//----------------------------------------------------
+//3). Write a JavaScript function to capitalize the first letter of a string.
+//Test Data :
+//console.log(capitalize('my string exercises'));
+// should return "My string exercises"
+//--------
+// WIP Not finished
+// function capString(input) {
+//     return input
+// }
+// console.log(capitalize('my string exercises'));
